@@ -1,0 +1,32 @@
+{
+  "name": "@mayorbyrne/tt-package-demo",
+  "version": "1.0.0",
+  "description": "A demo package for Total Typescript",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "demo",
+    "typscript"
+  ],
+  "homepage": "https://github.com/mayorbyrne/tt-package-demo",
+  "bugs": {
+    "url": "https://github.com/mayorbyrne/tt-package-demo/issues"
+  },
+  "author": "Kevin Moritz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayorbyrne/tt-package-demo.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
+}
